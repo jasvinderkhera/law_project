@@ -459,12 +459,166 @@ font-size: 40px;
   width: 150px;
 }
 
+/* ---------------------------------Footer---------------------------------------------------------------------------------------- */
+
 footer{
   background: #000;
   padding: 50px 0;
+  color: white;
 }
 
 .site_logo{
   filter: invert();
   height: 80px;
 }
+
+footer .container .row{
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+footer .container h4{
+  color: white;
+  padding-bottom: 10px;
+}
+
+footer .container ul{
+padding-left: 0;
+list-style: none;
+}
+
+footer .container ul li a{
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.67);
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+footer h5{
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .fa-brands{
+  font-size: 30px;
+  padding: 10px 15px;
+}
+
+footer .contact_info a{
+  display: inline-block;
+ text-decoration: none;
+ color: white;
+ padding: 7px 25px;
+}
+
+/* -----------------------------------Footer---------------------ENd---------------------------------------------------------------------- */
+
+
+
+
+
+
+/* -------------------------------------------------------Services Page----------------------------------------------------------------- */
+
+.services_banner{
+  background: url("../images/services_banner.png");
+  background-size: cover;
+  background-position: 35%;
+  padding: 80px;
+  color: white;
+}
+
+.services_overlay{
+  padding: 20px 0px;
+}
+
+.services_overlay p{
+  font-size: 14px;
+}
+
+.services_overlay h2{
+  padding-bottom: 20px;
+}
+
+.services_banner a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.services_banner a:hover{
+  background-color: black;
+  color: white;
+  transition: 400ms;
+}
+
+.services_details{
+  margin-top: 50px;
+}
+
+.faq h3, p, ul, li, h5{
+  padding-bottom: 20px;
+}
+
+.faq p, ul li{
+  font-size: 14px;
+}
+
+.ask_questions{
+  background-color: rgb(211, 203, 255);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.not_clear{
+  text-align: center;
+  padding: 40px 0;
+}
+
+.not_clear a{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.services_details .container{
+  display: flex;
+  gap: 30px;
+}
+
+.services_details .faq{
+  flex: 9;
+}
+
+.services_details .other_services{
+  background-color: rgba(128, 128, 128, 0.401);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 3;
+  height: 350px;
+}
+
+.services_details .other_services h4{
+  margin-bottom: 15px;
+}
+
+.services_details .other_services ul{
+padding-left: 0;
+list-style: none;
+}
+
+
+.services_details .other_services ul li {
+  padding-bottom: 10px;
+}
+
+/* -------------------------------------------------------Services Page end-------------------------------------------------------------- */
