@@ -118,6 +118,7 @@ navbar .menu .dropdown_items{
 }
 
 .hero_details .motive{
+  padding-bottom: 10px;
 font-size: 13px;
 }
 .hero_details .rest{
@@ -132,7 +133,7 @@ font-size: 15px;
 
 .banner_btn{
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   border: none;
   padding: 10px  15px;
   background-color: black;
@@ -143,6 +144,10 @@ font-size: 15px;
   color: black;
   background-color: white;
   transition: 300ms;
+}
+
+.hero_section_address{
+  padding-bottom: 10px;
 }
 
 .categories{
@@ -619,6 +624,11 @@ list-style: none;
 
 .services_details .other_services ul li {
   padding-bottom: 10px;
+}
+
+.other_services{
+  position: sticky;
+  top: 0;
 }
 
 /* -------------------------------------------------------Services Page end-------------------------------------------------------------- */
