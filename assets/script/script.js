@@ -17,3 +17,12 @@ $('.document-slider').slick({
     infinite: true,
     arrows:true,
   });
+
+
+$(".js-range-slider").ionRangeSlider({
+  type: "double",
+  min: 0,
+  max: 1500,
+  from: 200,
+  to: 500
+});
