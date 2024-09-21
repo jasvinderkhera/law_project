@@ -923,5 +923,115 @@ padding-bottom: 10px;
   margin: 10px 0 20px 0;
 }
 
+.consultation_form .name{
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 10px;
+}
+
+.consultation_form .mail_phone{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: 10px;
+}
+
+.consultation_form .category{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  gap: 10px;
+}
+
+.consultation_form label{
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 600
+}
+
+.consultation_form input, select{
+  font-size: 14px;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.consultation_form input{
+  height: 35px;
+  padding-left:10px ;
+}
+
+.form_div{
+  margin-bottom: 15px;
+}
+
+.consultation_form .case_description textarea{
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+}
+
+.consultation_form .appointment_date input{
+width: 300px;
+}
+
+.consultation_form .terms{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.consultation_form .terms p{
+  padding-bottom: 0;
+}
+
+.consultation_form .terms a{
+  text-decoration: none;
+}
+
+.consultation_form .terms input{
+  height: 15px;
+  width: 15px;
+  margin-bottom: 0;
+}
+
+/* Modal */
+
+.form_modal{
+  position: absolute;
+  top: 0;
+  bottom: -80;
+  left: 0;
+  right: 0;
+  background-color: #00000058;
+  display: none;
+  z-index: 1;
+}
+
+.form_content{
+  background-color: white;
+  margin: 600px 250px 600px 250px;
+  padding: 30px;
+  display: flex;
+
+}
+.form_content img{
+  height: 150px;
+  width: 150px;
+}
+
+.form_content .div_1{
+  text-align: center;
+}
+
+.form_content .div_1 h3{
+  margin-bottom: 10px;
+}
+
+
+/* Modal ENd */
+
+
 
 /* ------------------------------------------------------Lawyer Detail page end------------------------------------------------------------- */

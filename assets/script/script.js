@@ -26,3 +26,18 @@ $(".js-range-slider").ionRangeSlider({
   from: 200,
   to: 500
 });
+
+
+
+// --------------------------------------------------------------------Modal-------------------------------------------------------------
+
+function show_modal(){
+  let modal = document.querySelector(".form_modal")
+  modal.style.display = "block"
+}
+
+function hide_modal(){
+  let modal = document.querySelector(".form_modal")
+  modal.style.display = "none"
+  window.location.href = "index.html"
+}
