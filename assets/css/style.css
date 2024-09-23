@@ -999,9 +999,9 @@ width: 300px;
 /* Modal */
 
 .form_modal{
-  position: absolute;
+  position: fixed;
   top: 0;
-  bottom: -80;
+  bottom: 0;
   left: 0;
   right: 0;
   background-color: #00000058;
@@ -1011,9 +1011,10 @@ width: 300px;
 
 .form_content{
   background-color: white;
-  margin: 600px 250px 600px 250px;
+  margin: 0;
   padding: 30px;
   display: flex;
+  height: 100%;
 
 }
 .form_content img{

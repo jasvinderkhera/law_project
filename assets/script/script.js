@@ -33,7 +33,7 @@ $(".js-range-slider").ionRangeSlider({
 
 function show_modal(){
   let modal = document.querySelector(".form_modal")
-  modal.style.display = "block"
+  modal.style.display = "flex"
 }
 
 function hide_modal(){
